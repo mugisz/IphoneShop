@@ -1,0 +1,256 @@
+.basketMainBlock{
+    color:black;
+   
+    
+    .topBasketSection{
+        position: relative;
+        &::after{
+            content:"";
+            width: 5%;
+            height: 3px;
+            background: red;
+            position: absolute;
+            bottom:-10px;
+            left:0;
+        }
+    }
+    .basketFlex{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap:1rem;
+        .leftBlock{
+            img{width: 74px;}
+            box-shadow: 0 0 2rem rgba(0,0,0,.1)!important;
+            padding: 1rem;
+            flex:0 0 60%;
+            min-height: 400px;
+            
+            .leftBlockCard{
+                display: flex;
+                flex-direction: row;
+                align-items:center;
+                gap:2rem;
+                position: relative;
+                //border:1px solid red;
+                .nameBusk{
+                    //border:1px solid red;
+                    width: 400px;
+                }
+                .moreBlock{
+                    display: flex;
+                    flex-direction: row;
+                    align-items:center;
+                    gap:1rem;
+                    i {
+                        border: solid #bbbbbb;
+                        border-width: 0 3px 3px 0;
+                        display: inline-block;
+                        padding: 3px;
+                        transition: .3s;
+                        &:hover{
+                            border-color:rgb(78, 78, 78);
+                        }
+                    }
+                    
+                    .right {
+                        transform: rotate(-45deg);
+                        -webkit-transform: rotate(-45deg);
+                    }
+                    
+                    .left {
+                        transform: rotate(135deg);
+                        -webkit-transform: rotate(135deg);
+                    }
+                    
+                }
+                .iconCancel {cursor: pointer; position: absolute; top: 50%; right: 5%;}
+.iconCancel:before, .iconCancel:after {content: ""; position: absolute; width: 24px; height: 2px; background: gray;
+}
+            .iconCancel:before {transform: rotate(45deg);}
+            .iconCancel:after {transform: rotate(-45deg);}
+    
+            }
+            .lastMoveCard{
+                display: flex;
+                flex-direction: column;
+                a{color:red;text-decoration: none;}
+                h1{
+                    font-weight: 300;
+                    font-size: 24px;
+                }
+
+                gap:2rem;
+                input, select, textarea {
+                    outline: 0;
+                }
+                button, input {
+                    overflow: visible;
+                }
+                button, input, optgroup, select, textarea {
+                    margin: 0;
+                    font-family: inherit;
+                    font-size: inherit;
+                    line-height: inherit;
+                }
+                * {
+                    padding: 0;
+                }
+                *, p {
+                    margin: 0;
+                }
+                *, :after, :before {
+                    box-sizing: border-box;
+                }
+               
+                input[type="text" i] {
+                    padding: 1px 2px;
+                }
+                
+                input {
+                    writing-mode: horizontal-tb !important;
+                    
+                    text-rendering: auto;
+                    color: fieldtext;
+                    letter-spacing: normal;
+                    word-spacing: normal;
+                    line-height: normal;
+                    text-transform: none;
+                    text-indent: 0px;
+                    text-shadow: none;
+                    display: inline-block;
+                    text-align: start;
+                    appearance: auto;
+                    -webkit-rtl-ordering: logical;
+                    cursor: text;
+                    background-color: field;
+                    margin: 0em;
+                    padding: 1px 2px;
+                    border-width: 2px;
+                    border-style: inset;
+                    border-color: -internal-light-dark(rgb(118, 118, 118), rgb(133, 133, 133));
+                    border-image: initial;
+                }
+                .form-control {
+                   
+                    display: block;
+                    width: 100%;
+                    height: 52px;
+                    padding: 0.357rem 1.25rem;
+                    font-size: .875rem;
+                    font-weight: 400;
+                    line-height: 1.5;
+                    color: #495057;
+                    background-color: #fff;
+                    background-clip: padding-box;
+                    border: 1px solid #ced4da;
+                    border-radius: 0.25rem;
+                    transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+                }
+                .inputFlex{
+                    display: flex;
+                    flex-direction: column;
+                    align-items:center;
+                    gap:1rem;
+                    span{color:red;}
+                    .inputComFlex{
+                        width: 100%;
+                        display: flex;
+                        flex-direction: column;
+
+                    }
+                }
+            }
+            
+           
+        }
+        .rightBlock{
+            box-shadow: 0 0 2rem rgba(0,0,0,.1)!important;
+         
+            position: relative;
+            top:120px;
+            height:350px;
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+            //border:1px solid red;
+            padding: 40px 10px;
+            .rD{
+                text-align: center;
+                font-size:20px;
+                font-weight: 300;
+                position: relative;
+                width: 80%;
+                margin: 0 auto;
+                
+                &::after{
+                    content:"";
+                    width:100%;
+                    height: 4px;
+                    background: rgba(0,0,0,.1);
+                    position: absolute;
+                    bottom:-10px;
+                    left:0;
+                    text-align: center;
+                    
+          }
+            }
+            .sumBlock{
+                display: flex;
+                flex-direction: row;
+                gap:2rem;
+                width: 100%;
+                align-items:center;
+                justify-content: space-between;
+                margin-top: 2rem;
+                p{
+                    padding: 0 1rem 0 0;
+                }
+                h2{padding: 0  0 0 1rem;}
+            }
+            .oform{
+                cursor: pointer;
+                text-decoration: none;
+                color:white;
+                background: red;
+                padding: 2rem;
+                font-size: 20px;
+                border-radius:20px;
+            }
+        }
+    }
+}
+.Pus{
+   
+    color:black;
+    margin: 0 auto;
+    p{
+        font-size: 18px;
+    }
+    a{text-decoration: none;color:red;font-weight: 700;}
+}
+@media(max-width:1096px){
+    .basketMainBlock{
+        .topBasketSection{
+            &::after{width: 40%;}
+        }
+        .basketFlex{
+            flex-direction: column;
+            .rightBlock{top:0px;}
+        }
+    }
+ }
+ @media(max-width:729px){
+    .basketMainBlock{
+        .basketFlex{
+            .leftBlock{
+              width: 80%;
+              .leftBlockCard{
+                flex-direction: column;
+                .iconCancel{top:110%;left:48%}
+                .nameBusk{width: 80%;text-align: center;}
+              }
+            }
+        }
+    }
+ }

@@ -1,0 +1,211 @@
+.buyPage{
+    
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    margin: 0 auto;
+   // color:red;
+    a{text-decoration: none;color:black}
+    .description_top_block{
+        display: flex;
+        flex-direction: column;
+        //border:1px solid red;
+        //max-width: 200px;
+        //.Tomain{font-size: 20px;}
+        .trans{
+            color:rgb(85, 85, 85);
+        }
+        .buyDesc{
+            font-weight: 700;
+            font-size: 30px;
+           // border:1px solid red;A
+            color:black;
+            position: relative;
+            &::after{
+                content:"";
+                width: 20%;
+                height: 3px;
+                background: red;
+                position: absolute;
+                bottom:-10px;
+                left:0;
+            }
+        }
+        
+    }
+    .buy_mainBlock{
+      //  border: 1px solid red;
+        display: flex;
+        flex-direction: row;
+        .left_sections{
+            display: flex;
+            flex-direction: column;
+            align-items:center;
+           // border: 1px solid red;
+            flex:0 0 50%;
+
+           
+            .leftWidth{
+                width: 55px;
+                height: 55px;
+                
+            }
+            .mainImgBlock{
+               
+                
+                display: block;
+                overflow: hidden;
+                img{
+                    width: 510px;
+                    height: 510px; 
+                }
+              
+            }
+            .bottom_img{
+                //border:1px solid red;
+                display: flex;
+                align-items:center;
+                gap:1rem;
+                padding: 5px;
+               
+               
+               
+            }
+        }
+        .right_sections{
+            color:black;
+            display: flex;
+            flex-direction: column;
+            gap:1rem;
+            .NameBuy{
+                color:black;
+                font-size: 20px;
+            }
+            .appleGuarant{
+                display: flex;
+                align-items:center;
+                justify-content: center;
+                gap:.4rem;
+                justify-content: start;
+                img{
+                    width: 24px;
+                    height: 24px;
+                   margin-bottom: 3px;
+                }
+                p{font-weight: 700;}
+            }
+            .color_block{
+                display: flex;
+                //border:1px solid red;
+                gap:1rem;
+              
+                .colorItems{
+                    border:1px solid #f0f0f0;
+                    display: flex;
+                   align-items:center;
+                   gap:1rem;
+                    padding: 0 5px 0 5px;
+                    img{
+                        width: 18px;
+                        height: 24px;
+                    }
+                   
+                
+                }
+                .br{border-color: rgb(177, 177, 177);}
+            } 
+
+            .memory_block{
+                display: flex;
+                flex-direction: row;
+                gap:1rem;
+                margin: 1rem 0;
+                span{
+                    border:1px solid #f0f0f0;
+                    padding: 10px;
+                }
+            }
+            .dostBlock{
+                
+                background: #f0f0f0;
+                padding: 5px;
+                border-radius:20px;
+                text-align: center;
+                span{
+                    color:red;
+                }
+            }
+            .price_block{
+                background: #f0f0f0;
+                padding: 10px;
+                border-radius:20px;
+            text-align: center;
+                .fwSpan{
+                    font-weight: 700;
+                    font-size: 30px;
+                }
+            }
+            .last_buttons{
+                display: flex;
+                flex-direction: row;
+                margin-top: 2rem;
+                .buy_btn{
+                    background: #00bf6f;
+                    color:white;
+                    flex-direction: row-reverse;
+                    align-items:center;
+                    justify-content: center;
+                    display: flex;
+                    flex:0 0 50%;
+                    gap:1rem;
+                    border-radius:20px;
+                    padding: 1rem;
+                    a{
+                        font-size: 20px;
+                        color:white;
+                    }
+                    img{
+                        width: 32px;
+
+                    }
+                    
+                }
+                .Ishave{
+                    display: flex;
+                    flex-direction: row;
+                    align-items:center;
+                    margin-left: 5%;
+                   position: relative;
+                   .icon-checkmark {
+                    position: relative;
+                   
+                    padding-left: 30px;
+                  }
+                  
+                  .icon-checkmark::before {
+                    content: "";
+                    position: absolute;
+                    bottom: -9px;
+                    left: 0px;
+                    width: 8px;
+                    height: 15px;
+                    border-right: 6px solid #c7c7c7;
+                    border-bottom: 6px solid #c7c7c7;
+                    transform: rotate(45deg);
+                  }
+                }
+            }
+        }
+    }
+}
+@media(max-width:1096px){
+   .buyPage{
+    .buy_mainBlock{
+        flex-direction: column;
+        .right_sections{
+            text-align: center;
+            
+        }
+    }
+   }
+}

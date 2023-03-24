@@ -1,0 +1,120 @@
+.dostFlex{
+    color:black;
+    span{color:red;}
+    .description_top_block{
+        h1{
+            position: relative;
+            margin-bottom: 3em;
+            &::after{
+                content:"";
+                width: 6%;
+                height: 4px;
+                background: red;
+                position: absolute;
+                bottom:-10px;
+                left:0;
+            }
+        }
+    }
+    .headerTopLinks{
+        font-weight: 500;
+        font-size: 40px;
+    }
+    .headerP{
+        font-size: 25px;
+        font-weight: 300;
+        //border:1px solid red;
+    
+    }
+}
+
+.da{
+    color:black;
+    font-size: 28px;
+
+    .description_top_block{
+            position: relative;
+            
+            &::after{
+                content:"";
+                width: 8%;
+                height: 4px;
+                background: red;
+                position: absolute;
+                bottom:-10px;
+                left:0;
+      }
+    }
+    
+    
+}
+.gar{
+    color:black;
+    span{color:red;}
+    .description_top_block{
+       
+            position: relative;
+            
+            &::after{
+                content:"";
+                width: 8%;
+                height: 4px;
+                background: red;
+                position: absolute;
+                bottom:-10px;
+                left:0;
+            }
+        }
+       
+    
+    .headerTopLinks{
+        font-weight: 500;
+        font-size: 40px;
+    }
+    .headerP{
+        font-size: 25px;
+        font-weight: 300;
+       
+      
+        
+    }
+    .headerDof{
+        font-size: 18px;
+         font-weight: 300;
+         span{
+            font-size: 20px;
+            font-weight: 700;
+            color:black;
+         }
+    }
+}
+.contacsFlex{
+    display: flex;
+   
+    width: 90%;
+    margin: 0 auto;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap:1rem;
+    padding-bottom: 5%;
+    a{
+        text-decoration: none;
+        color:black;
+       
+    }
+    .contacts{
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        font-size: 22px;
+        display: flex;
+        align-items: center;
+        gap:1rem;
+        padding:0  1rem;
+        border-radius: 12px;
+        font-weight: 300;
+        transition: .3s;
+
+       
+    }
+}
+
+
