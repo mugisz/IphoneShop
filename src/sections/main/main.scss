@@ -1,494 +1,517 @@
-main{
-    
-   
-    //padding-top: 12%;
-    text-align: center;
-    height: 800px;
-    position: relative;
-   a{text-decoration: 0;color:black}
-    //height: 500px;
-    .mainBG{
-       background:url("../../img/mainPH.png") ;
-       
-
-       width: 100%;
-       height: 100%;
-       background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-        //border:1px solid red;
-        z-index: 0;
-      
-  
-    }
-    .main_descriptions{
-        width: 50%;
-        z-index: 1;
-        margin: 0 auto;
-        position: absolute;
-  top: 40%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  z-index: 2;
-  width: 50%;
-  padding: 20px;
+main {
+  //padding-top: 12%;
   text-align: center;
-  background-color: rgb(0,0,0); /* Fallback color */
-  background-color: rgba(0, 0, 0, 0.541); /* Black w/opacity/see-through */
-        span{color:red;}
-        h1{
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 700;
-            font-size: 40px;
-        
-        }
+  height: 800px;
+  position: relative;
+  a {
+    text-decoration: 0;
+    color: black;
+  }
+  //height: 500px;
+  .mainBG {
+    background: url("../../img/mainPH.png");
+
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    //border:1px solid red;
+    z-index: 0;
+  }
+  .main_descriptions {
+    width: 50%;
+    z-index: 1;
+    margin: 0 auto;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 2;
+    width: 50%;
+    padding: 20px;
+    text-align: center;
+    background-color: rgb(0, 0, 0); /* Fallback color */
+    background-color: rgba(0, 0, 0, 0.541); /* Black w/opacity/see-through */
+    span {
+      color: red;
     }
-    .main_title{
-       // width: 100%;
-       //height: 100px;
-       // background: #ffffff; border:1px solid red;
-        margin: 1rem 0 1rem 0;
-        .main_titles{
+    h1 {
+      font-family: "Montserrat", sans-serif;
+      font-weight: 700;
+      font-size: 40px;
+    }
+  }
+  .main_title {
+    // width: 100%;
+    //height: 100px;
+    // background: #ffffff; border:1px solid red;
+    margin: 1rem 0 1rem 0;
+    .main_titles {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: flex-start;
+      color: black;
+      gap: 4rem;
+      // border:1px solid red;
+      text-align: start;
+      max-width: 500px;
+      margin: 0 auto;
+      .listMainRewart {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 1rem;
+
+        .rewardI {
+          width: 56px;
+          height: 56px;
+        }
+      }
+
+      span {
+        color: red;
+      }
+      li {
+        font-size: 20px;
+        text-transform: uppercase;
+        font-weight: 700;
+      }
+    }
+  }
+  .first_productBlock {
+    background: #2f2f2f;
+    span {
+      color: red;
+    }
+    padding: 1rem 2rem 1rem 2rem;
+    display: flex;
+    flex-direction: column;
+    h1 {
+      font-weight: 700;
+      font-size: 30px;
+    }
+    .product_main_block {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: center;
+      gap: 5rem;
+      // border:1px solid red;
+      padding: 1rem 0;
+      max-width: 80%;
+      margin: 0 auto;
+      position: relative;
+      &::after {
+        content: "";
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        background: #b8b8b8;
+        left: 0;
+        top: 0;
+        z-index: 0;
+        border-radius: 50%;
+      }
+      &::before {
+        content: "";
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        background: #b8b8b8;
+        right: 15%;
+        bottom: 0;
+        z-index: 0;
+        border-radius: 50%;
+      }
+      .product_card {
+        position: relative;
+        z-index: 2;
+        display: flex;
+        flex-direction: column;
+        background: white;
+        color: black;
+        a {
+          color: #000;
+        }
+        border-radius: 20px;
+        padding: 10px 0;
+        h2 {
+          margin: 5px 0;
+        }
+        img {
+          transition: all 0.2s ease;
+          max-width: 200px;
+          max-height: 200px;
+        }
+        width: 330px;
+        height: 350px;
+        justify-content: center;
+        align-items: center;
+        transition: all 0.2s ease;
+        position: relative;
+        &:hover {
+          .category_card {
+            color: red;
+          }
+          h2 {
+            color: red;
+          }
+          img {
+            max-width: 210px;
+            max-height: 210px;
+          }
+        }
+        .price_card {
+          position: absolute;
+          bottom: 0;
+          left: 35%;
+        }
+      }
+    }
+  }
+
+  .popular_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 2rem;
+    h1 {
+      font-style: 40px;
+    }
+    .popular_flex {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 auto;
+      justify-content: center;
+      gap: 2rem;
+      .iphone_Card {
+        cursor: pointer;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        text-align: center;
+        width: 320px;
+        height: 380px;
+        box-shadow: 0 0 20px rgb(0 0 0 / 7%);
+        border-radius: 20px;
+        padding: 15px 0 0 0;
+        background: rgb(252, 252, 252);
+        position: relative;
+        transition: all 0.3s ease;
+
+        &:hover {
+          box-shadow: 0 0 2px rgb(0 0 0 / 7%);
+        }
+        h2 {
+          font-weight: 300;
+          color: rgb(85, 85, 85);
+        }
+        .price {
+          font-size: 18px;
+          font-weight: 700;
+        }
+        .blue_cardBlock {
+          background: rgb(42, 127, 255);
+          width: 100%;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+          padding-top: 10px;
+          color: white;
+          border-bottom-left-radius: 20px;
+          bottom: 0;
+
+          height: 50px;
+          border-bottom-right-radius: 20px;
+          p {
+            padding-left: 10px;
+            font-weight: 300;
+            font-size: 18px;
+          }
+          .cart {
+            margin: 0 10px 10px 0;
+            background: rgb(4, 97, 236);
+            padding: 10px;
+            border-radius: 10px;
+          }
+        }
+        .cart {
+          width: 24px;
+          height: 24px;
+        }
+      }
+    }
+  }
+  .reviev {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 1rem;
+    // gap:2rem;
+    h1 {
+      font-size: 60px;
+      font-weight: 700;
+      color: rgb(255, 255, 255);
+      //left: 5%;
+      background: red;
+      padding: 10px 10px 0 10px;
+      border-radius: 15px;
+      width: 100%;
+      margin: 0;
+    }
+    .reviev_block {
+      // margin-bottom: 5%;
+      width: 100%;
+      height: 300px;
+      box-shadow: 0 5px 5px -5px rgba(153, 153, 153, 0.5);
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      align-items: center;
+      span {
+        color: red;
+      }
+      .reviev_left {
+        //border:1px solid red;
+        position: absolute;
+        left: 20px;
+        transform: rotate(-10deg);
+      }
+      .reviev_card {
+        width: 50%;
+        background: white;
+        color: black;
+        border-radius: 30px;
+        padding: 10px;
+        cursor: pointer;
+        box-shadow: 1px 1px 12px -3px rgba(34, 60, 80, 0.2);
+        .reviev_bottom {
+          text-align: start;
+        }
+        .top_revivev_block {
+          display: flex;
+          align-items: center;
+          gap: 0.5rem;
+          justify-content: flex-start;
+
+          .top_reviev_text_align {
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items:start;
-            color:black;
-            gap:4rem;
-         // border:1px solid red;
+            //align-items:center;
+            // border:1px solid red;
+
+            .star {
+              display: flex;
+              flex-direction: row;
+            }
+            .reviev_name {
+              font-weight: 700;
+              text-align: start;
+              font-size: 18px;
+            }
+          }
+          .ava {
+            margin-top: 10px;
+            border-radius: 50%;
+            width: 42px;
+            height: 42px;
+          }
+          .secondAva {
+            background: rgb(131, 131, 131);
+          }
+          .lastAva {
+            background: green;
+          }
+        }
+      }
+    }
+
+    .rcw {
+      background: rgb(212, 212, 212);
+      color: #000;
+      div {
+        background: #000;
+      }
+    }
+  }
+  footer {
+    background-color: #181b1e;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    .footer_topBlock {
+      display: flex;
+      flex-direction: row;
+
+      justify-content: space-around;
+
+      .FTblocks {
+        font-size: 16px;
+        text-align: start;
+        a {
+          text-decoration: none;
+          color: white;
+        }
+        .fot_hov_ef {
+          color: rgb(206, 206, 206);
+          cursor: pointer;
+          padding-left: 10px;
+          &:hover {
+            color: rgb(255, 255, 255);
+          }
+        }
+
+        .first_desc {
           text-align: start;
-         max-width: 500px;
-          margin: 0 auto;
-               .listMainRewart{
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                align-items: center;
-                gap:1rem;
-               
-                .rewardI{
-                    width: 56px;
-                    height: 56px;
-                    
-                }
-            } 
-            
-            span{
-                color:red;
-            }
-            li{
-                font-size: 20px;
-                text-transform: uppercase;
-                font-weight: 700;
-            }
+          //border:1px solid red;
         }
+      }
+
+      span {
+        font-weight: 700;
+
+        &::before {
+          content: "";
+          height: 15px;
+          width: 2px;
+          margin-right: 5px;
+          display: inline-block;
+          background: rgb(255, 255, 255);
+        }
+      }
     }
-    .first_productBlock{
-        background: #2f2f2f;
-        span{color:red;}
-        padding: 1rem 2rem 1rem 2rem;
+    .footer_contactBlock {
+      display: flex;
+      flex-direction: row;
+      justify-content: center;
+      width: 100%;
+      //border:1px solid red;
+      gap: 2rem;
+      margin: 1rem 0 1rem 0;
+      flex-wrap: wrap;
+      .footer_contacts {
         display: flex;
+        flex-direction: row;
+        //border:1px solid red;
+        align-items: center;
+        gap: 1rem;
+        font-size: 20px;
+        color: white;
+        a {
+          text-decoration: none;
+          color: white;
+        }
+        img {
+          width: 33px;
+          height: 33px;
+        }
+      }
+    }
+    span {
+      color: red;
+    }
+    .lastPR {
+      font-size: 20px;
+      text-transform: uppercase;
+    }
+  }
+}
+@media (max-width: 777px) {
+  main {
+    .footer_topBlock {
+      flex-wrap: wrap;
+    }
+  }
+}
+@media (max-width: 1139px) {
+  main {
+    .reviev {
+      // border:1px solid red;
+      .reviev_block {
+        .reviev_card {
+          width: 80%;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 695px) {
+  main {
+    .reviev {
+      .reviev_block {
+        background: none;
+        .reviev_card {
+          width: 90%;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 547px) {
+  main {
+    .reviev {
+      .reviev_block {
+        background: none;
+        padding: 3rem 0;
+        height: 100%;
+        .reviev_card {
+          width: 95%;
+          // border:1px solid red;
+        }
+      }
+    }
+  }
+}
+@media (max-width: 700px) {
+  main {
+    .reviev {
+      .reviev_block {
         flex-direction: column;
-        h1{
-            font-weight: 700;
-            font-size: 30px;
+        gap: 1rem;
+        p {
+          width: 100%;
         }
-        .product_main_block{
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            align-items:center;
-            justify-content: center;
-            gap:5rem;
-           // border:1px solid red;
-           padding: 1rem 0;
-            max-width: 80%;
-            margin: 0 auto;
-            position: relative;
-            &::after{
-                content:"";
-                position: absolute;
-                width: 200px;
-                height: 200px;
-                background: #b8b8b8;
-                left:0;
-                top:0;
-                z-index: 0;
-                border-radius:50%;
-                
-            }
-            &::before{
-                content:"";
-                position: absolute;
-                width: 200px;
-                height: 200px;
-                background: #b8b8b8;
-                right:15%;
-                bottom:0;
-                z-index: 0;
-                border-radius:50%;
-                
-            }
-            .product_card{
-                position: relative;
-                z-index: 2;
-                display: flex;
-                flex-direction: column;
-                background: white;
-                color:black;
-                a{color:#000}
-                border-radius:20px;
-                padding: 10px 0;
-                h2{margin: 5px 0;}
-             ;   img{     transition: all .2s ease;;max-width: 200px;max-height: 200px;}
-                width: 330px;
-                height: 350px;
-                justify-content: center;
-                align-items:center;
-                transition: all .2s ease;
-                position: relative;
-                &:hover{
-                    .category_card{color:red;}
-                    h2{color:red}
-                    img{max-width: 210px;max-height: 210px;}
-                }
-                .price_card{
-                    position: absolute;
-                    bottom:0;
-                    left:35%;
-                }
-
-            }
-        }
+      }
     }
-
-    
-
-    .popular_card{
-        display: flex;
-        flex-direction: column;
-        align-items:center;
-        margin-top: 2rem;
-        h1{font-style: 40px;}
-        .popular_flex{
-            display: flex;
-            flex-wrap: wrap;
-            margin: 0 auto;
-            justify-content: center;
-            gap:2rem;
-            .iphone_Card{
-                cursor: pointer;
-                display: flex;
-                flex-direction: column;
-                align-items:center;
-                justify-content: space-between;
-                text-align: center;
-                width: 320px;
-                height: 380px;
-                box-shadow: 0 0 20px rgb(0 0 0 / 7%);
-                border-radius: 20px;
-                padding: 15px 0 0 0;
-               background: white;
-               position: relative;
-               transition: all .3s ease;
-            
-               &:hover{ box-shadow: 0 0 2px rgb(0 0 0 / 7%);}
-               h2{font-weight: 300;color:rgb(85, 85, 85);}
-               .price{ font-size: 18px;font-weight: 700;}
-               .blue_cardBlock{
-                background: rgb(42, 127, 255);
-                width: 100%;
-                display: flex;
-                flex-direction: row;
-                align-items:center;
-                justify-content: space-between;
-                padding-top: 10px;
-                color:white;
-                border-bottom-left-radius: 20px;
-                bottom:0;
-              
-                height: 50px;
-                border-bottom-right-radius: 20px;
-                p{padding-left: 10px;font-weight: 300;font-size: 18px;}
-                .cart{
-                    margin: 0 10px 10px 0;
-                    background: rgb(4, 97, 236);
-                    padding: 10px;
-                    border-radius:10px;
-                }
-               }
-                .cart{
-                    width: 24px;
-                    height: 24px;
-                }
-            }
-        }
-       
-    }
-    .reviev{
-       position: relative;
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items:center;
-        color:white;
-        margin-top: 1rem;
-       // gap:2rem;
-        h1{
-            font-size: 60px;
-            font-weight: 700;
-            color:rgb(255, 255, 255);
-            //left: 5%;
-            background:red;
-            padding: 10px 10px 0 10px;
-            border-radius: 15px;
-            width: 100%;
-            margin: 0;
-        }
-        .reviev_block{
-           // margin-bottom: 5%;
-            width: 100%;
-            height: 300px;
-            box-shadow: 0 5px 5px -5px rgba(153, 153, 153, 0.5);
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            align-items:center;
-           span{color:red;}
-           .reviev_left{
-            //border:1px solid red;
-            position: absolute;
-            left: 20px;
-            transform: rotate(-10deg);
-
-           }
-            .reviev_card{
-                width: 50%;
-                background: white;
-                color:black;
-                border-radius:30px;
-                padding: 10px;
-                cursor: pointer;
-                box-shadow: 1px 1px 12px -3px rgba(34, 60, 80, 0.2);
-                .reviev_bottom{
-                    text-align: start;
-                }
-                .top_revivev_block{
-                    display: flex;
-                   align-items:center;
-                    gap:.5rem;
-                    justify-content: flex-start;
-                    
-                    .top_reviev_text_align{
-                        
-                        display: flex;
-                        flex-direction: column;
-                       //align-items:center;
-                      // border:1px solid red;
-                       
-                        .star{
-                            display: flex;
-                            flex-direction: row;
-                    
-                        }
-                        .reviev_name{
-                            font-weight: 700;
-                            text-align: start;
-                            font-size: 18px;
-                        }
-                    }
-                .ava{margin-top:10px;border-radius:50%;width: 42px;height: 42px;}
-                .secondAva{background:rgb(131, 131, 131)}
-                .lastAva{background: green;}
-            }
-            }
-        }
-       
-        .rcw{background:rgb(212, 212, 212);
-            color:#000;
-            div{
-                background: #000;
-            }
-        }
-        
-
-    }
-    footer{
-        background-color:#181b1e;
-        font-family: 'Roboto', sans-serif;
-                 font-weight: 300;
-        .footer_topBlock{
-         display: flex;
-         flex-direction: row;
-        
-         justify-content: space-around;
-         p{}
-         .FTblocks{
-             font-size: 16px;
-            text-align: start;
-            a{
-                text-decoration: none;
-                color:white;
-            }
-                .fot_hov_ef{color:rgb(206, 206, 206); cursor: pointer;padding-left: 10px;&:hover{color:rgb(255, 255, 255);}
-             }
-           
-             .first_desc{
-                
-                 text-align: start;
-                 //border:1px solid red;
-             }   
-            
-         }
-          
-         span{
-            
-             font-weight: 700;
-             
-             &::before{
-     
-                 content: "";
-                 height: 15px;
-                 width: 2px;
-                 margin-right: 5px;
-                 display:inline-block;
-                 background: rgb(255, 255, 255);
-                 
-             }
-         }
-        } 
-        .footer_contactBlock{
-            display: flex;
-            flex-direction: row;
-            justify-content: center;
-            width: 100%;
-            //border:1px solid red;
-            gap:2rem;
-            margin: 1rem 0 1rem 0;
-            flex-wrap: wrap;
-            .footer_contacts{
-                display: flex;
-                flex-direction: row;
-                //border:1px solid red;
-                align-items:center;
-                gap:1rem;
-                font-size: 20px;
-                color:white;
-                a{text-decoration: none;color:white;}
-                img{
-                    width: 33px;
-                    height: 33px;
-                }
-            
-            }
-           
-        }
-        span{
-            color:red;
-        }
-        .lastPR{
-            font-size: 20px;
-           text-transform: uppercase;
-            
-        }
-     }
+  }
 }
-@media(max-width:777px){
-    main{
-        .footer_topBlock{
-            flex-wrap: wrap;
+@media (max-width: 572px) {
+  main {
+    height: 400px;
+    .main_descriptions {
+      top: 50%;
+      h1 {
+        font-size: 30px;
+      }
+    }
+    .main_title {
+      .main_titles {
+        gap: 20px;
+        .listMainRewart {
+          .rewardI {
+            width: 32px;
+            height: 32px;
+          }
         }
+      }
     }
+  }
 }
-@media(max-width:1139px){
-    main{
-        .reviev{
-           // border:1px solid red;
-            .reviev_block{
-                .reviev_card{
-                width: 80%;
-                
-                }
-            }
-        }
+@media (max-width: 439px) {
+  main {
+    height: 350px;
+    .main_descriptions {
+      h1 {
+        font-size: 25px;
+      }
     }
-}
-@media(max-width:695px){
-    main{
-        .reviev{
-           
-            .reviev_block{
-               background: none;
-                .reviev_card{
-                width: 90%;
-                
-                }
-            }
-        }
-    }
-}
-@media(max-width:547px){
-    main{
-        .reviev{
-           
-            .reviev_block{
-               background: none;
-               padding: 3rem 0;
-               height: 100%;
-                .reviev_card{
-                width: 95%;
-               // border:1px solid red;
-                
-                
-                }
-            }
-        }
-    }
-}
-@media(max-width:700px){
-    main{
-        .reviev{
-            .reviev_block{
-                flex-direction: column;
-                gap:1rem;
-               p{ width: 100%;}
-            }
-        }
-    }
-}
-@media(max-width:572px){
-    main{
-        height: 400px;
-        .main_descriptions{
-            top: 50%;
-            h1{
-                font-size: 30px;
-            }
-
-        }    
-        .main_title{
-            
-            .main_titles{
-                gap:20px;
-                .listMainRewart{
-                    .rewardI{width: 32px;height: 32px;}
-
-                }
-               
-               
-            }
-        }   
-    }
-}
-@media(max-width:439px){
-    main{
-        height: 350px;
-        .main_descriptions{
-            
-            h1{
-                font-size: 25px;
-            }
-
-        }       
-    }
+  }
 }
