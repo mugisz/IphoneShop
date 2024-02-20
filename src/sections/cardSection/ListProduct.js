@@ -39,7 +39,7 @@ const ListProduct = ({
         </p>
       </Link>
       <div className="blue_cardBlock" onClick={() => SetBusket(props)}>
-        <p>В наличии</p>
+        <p>В наявності</p>
 
         <img className="cart" src={cart} alt="" />
       </div>

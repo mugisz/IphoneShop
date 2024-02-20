@@ -2,29 +2,43 @@ import React from "react";
 import "../productWhichPage/productMain.scss";
 import { Link } from "react-router-dom";
 import ListProduct from "../cardSection/ListProduct";
+//mport axios from "axios";
+const Iphone = ({ SetBusket, card, setBuy }) => {
+  //   const [mas, SetMas] = React.useState([]);
 
-const Iphone = ({SetBusket,card,setBuy})=>{
-    
-    return(
-        
-        <section className="default_for_buy">
-            <div className="container">
-            <div className="description_top_block">
-            <p><Link to="/">Главная</Link> <span className="trans">> Iphone</span></p>
-            <p className="buyDesc">Купить <span className="red">Iphone</span></p>
-           </div>
-          
-           <div className="iphone_flexCard">
-                {
-                    card.map(c=>(
-                        <ListProduct count={c.count} id={c.id}smalImg1={c.smalImg1} smalImg4={c.smalImg4}smalImg3={c.smalImg3}smalImg2={c.smalImg2}SetBusket ={SetBusket}  setBuy={setBuy} img={c.img} name={c.name} price={c.price}/>
-                    ))
-                }
-           </div>
-            </div>
-        </section>
-    )
-}
+  return (
+    <section className="default_for_buy">
+      <div className="container">
+        <div className="description_top_block">
+          <p>
+            <Link to="/">Гооловна</Link> <span className="trans">> Iphone</span>
+          </p>
+          <p className="buyDesc">
+            Купити <span className="red">Iphone</span>
+          </p>
+        </div>
+
+        <div className="iphone_flexCard">
+          {card?.map((c) => (
+            <ListProduct
+              count={c.count}
+              id={c.id}
+              smalImg1={c.smalImg1}
+              smalImg4={c.smalImg4}
+              smalImg3={c.smalImg3}
+              smalImg2={c.smalImg2}
+              SetBusket={SetBusket}
+              setBuy={setBuy}
+              img={c.img}
+              name={c.name}
+              price={c.price}
+            />
+          ))}
+        </div>
+      </div>
+    </section>
+  );
+};
 export default Iphone;
 /* <div className="which_iphone_main">
             <div className="which_block">

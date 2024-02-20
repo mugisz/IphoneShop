@@ -1,9 +1,11 @@
 import React from "react";
 import { Link } from "react-router-dom";
 import "../basketPage/basketPage.scss";
+
 const BasketPage = ({ show, busket, deleteProduct }) => {
   const [count, setCount] = React.useState(1);
   const [lastMove, setLastMove] = React.useState(true);
+
   const result = busket.reduce(
     (previousValue, currentItem) =>
       Number(
@@ -11,6 +13,7 @@ const BasketPage = ({ show, busket, deleteProduct }) => {
       ),
     0
   );
+
   const handleIncreaceCount = (id) => {
     setCount(
       busket.map((item) => {
@@ -22,7 +25,7 @@ const BasketPage = ({ show, busket, deleteProduct }) => {
     );
   };
 
-  const handleDecreaceCount = (id, count) => {
+  const handleDecreaseCount = (id, count) => {
     if (count < 1) {
       count = 0;
     } else {
@@ -40,9 +43,9 @@ const BasketPage = ({ show, busket, deleteProduct }) => {
   if (!show) {
     return (
       <div className="Pus">
-        <h1>Корзина пустая </h1>
+        <h1>Корзина порожня </h1>
         <p>
-          Перейти на <Link to="/"> Главную Страницу</Link>{" "}
+          Перейти на <Link to="/"> Головну Сторінку</Link>{" "}
         </p>
       </div>
     );
@@ -65,7 +68,7 @@ const BasketPage = ({ show, busket, deleteProduct }) => {
                   <div className="moreBlock">
                     <i
                       className="left"
-                      onClick={() => handleDecreaceCount(b.id, b.count)}
+                      onClick={() => handleDecreaseCount(b.id, b.count)}
                     ></i>
                     <p>{b.count}</p>
                     <i
@@ -81,33 +84,33 @@ const BasketPage = ({ show, busket, deleteProduct }) => {
               ))
             ) : (
               <div className="lastMoveCard">
-                <h1>Оформление заказа</h1>
+                <h1>Оформлення замовлення</h1>
                 <div className="inputFlex">
                   <input
                     type="tel"
                     maxlength="30"
-                    placeholder="Имя получателя заказа"
+                    placeholder="Ім'я отримувача замовлення"
                     name="name"
                     class="form-control"
                   />
                   <input
                     type="tel"
                     maxlength="30"
-                    placeholder="Номер телефона"
+                    placeholder="Номер телефону"
                     name="name"
                     class="form-control"
                   />
                   <div className="inputComFlex">
-                    <p>Комментарий к заказу (необязательно)</p>
+                    <p>Коментар до замовлення (необов'язково)</p>
                     <input type="text" name="name" class="form-control" />
                   </div>
                   <p>
-                    Нажимая на кнопку "Отправить" вы даете свое согласие на
-                    обработку <span> персональных данных</span> в соответсвии с{" "}
+                    Натисканням на кнопку "Відправити" ви надаєте свою згоду на
+                    обробку <span> особистих даних</span> відповідно до{" "}
                     <span>
-                      <Link to="/garant"> политикой конфиденциальности</Link>
+                      <Link to="/garant"> політики конфіденційності</Link>
                     </span>
-                    . Мы бережно относимся к вашим данным.
+                    . Ми дбайливо ставимося до ваших даних.
                   </p>
                 </div>
               </div>
@@ -115,13 +118,13 @@ const BasketPage = ({ show, busket, deleteProduct }) => {
           </div>
 
           <div className="rightBlock">
-            <p className="rD">Доставка по всей России</p>
+            <p className="rD">Доставка по всій Україні</p>
             <div className="sumBlock">
-              <h2>Итого</h2>
+              <h2>Разом</h2>
               <p>{result}</p>
             </div>
             <p className="oform" onClick={() => setLastMove(false)}>
-              Перейти к оформлению
+              Перейти до оформлення
             </p>
           </div>
         </div>
@@ -129,4 +132,5 @@ const BasketPage = ({ show, busket, deleteProduct }) => {
     </div>
   );
 };
+
 export default BasketPage;

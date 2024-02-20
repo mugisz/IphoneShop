@@ -1,5 +1,5 @@
 {
-  "name": "scam",
+  "name": "eccommerce",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -19,7 +19,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "json-server  server/iphone.json -p3001"
+    "server": "json-server -w server/iphone.json -p3001"
   },
   "eslintConfig": {
     "extends": [
