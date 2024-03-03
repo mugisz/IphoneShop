@@ -29,9 +29,101 @@
             "img": "https://i.allo.ua/media/catalog/product/cache/1/small_image/212x184/9df78eab33525d08d6e5fb8d27136e95/w/w/wwen_iphone14pro_q422_gold_pdp-images_position-1a_2.jpg",
             "name": "Iphone 14 Pro 128Gb Золотий",
             "price": "89990 "
-          }
+          },
+          {
+            "id": 3,
+            "count": 1,
+            "smalImg1":
+              "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/i/p/iphone-13-green-55-1000x1000_result.jpg",
+            "smalImg2":
+              "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/2/5/25-1000x1000-green-1000x1000_result.jpg",
+            "smalImg3":
+              "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/a/p/apple-iphone-13-128gb-green-mnff3-1.1000x_result.jpg",
+            "smalImg4":
+              "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/2/6/26-1000x1000-green-1000x1000_result.jpg",
+            "img": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSpuNb_iBr2QBV_1l__yRj3f2hcYYiROcV68-6v_TR1ochg1avO8nkM0da9tVpffjmjSPITXqp5XzHshoy_rd-oHpNLvhru7FoA3beo86vCIX91L3pDVC4IGKFe&usqp=CAc",
+            "name": "Apple iPhone 13 128GB Зелений",
+            "price": "26 999"
+          },
+          {
+            "id": 4,
+            "count": 1,
+            "smalImg1":
+              "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/i/p/iphone_15_plus_blue_pdp_image_position-1__ww-en.jpg",
+            "smalImg2":
+              "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/i/p/iphone_15_plus_blue_pdp_image_position-1_alt__ww-en.jpgф",
+            "smalImg3":
+              "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/i/p/iphone_15_plus_blue_pdp_image_position-2__ww-en.jpg",
+            "smalImg4":
+              "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/i/p/iphone_15_plus_blue_pdp_image_position-4__ww-en.jpg",
+            "img": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQnfO-Q9WiBuqe0o2S_06_wxVVkLuF8PlGDWWOhYlJhZ0w47hLiFTiE7RkgUnfa3QpGtZQMPevkZDD2gwA2WjqiyCHY3-XbH495Vx3YOlhInGqB6VqXtElDHk9hYw&usqp=CAc",
+            "name": "Apple iPhone 15 128GB Голубий",
+            "price": "36999 "
+          },
+          {
+            "id": 5,
+            "count": 1,
+            "smalImg1":
+              "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/i/p/iphone_15_pro_max_natural_titanium_pdp_image_position-1__ww-en.jpg",
+            "smalImg2":
+              "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/i/p/iphone_15_pro_max_natural_titanium_pdp_image_position-1_alt__ww-en.jpg",
+            "smalImg3":
+              "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/i/p/iphone_15_pro_max_natural_titanium_pdp_image_position-2__ww-en.jpg",
+            "smalImg4":
+              "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/i/p/iphone_15_pro_max_natural_titanium_pdp_image_position-3__ww-en.jpg",
+            "img": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQ8iyfGdU4srVi2lbYVTAJAZFKWYOFcP2gP8r6gIXhsZA70Ox4dUN0-vX0SuOiZjkHImZuotdJTAMdpVBLYYO7d9maj-tt2fnUTuh5Y3fJQkRUYzQAzk3x67e-S&usqp=CAc",
+            "name": "Apple iPhone 15 Pro 128GB",
+            "price": "49999 "
+          },
+          {
+            "id": 15,
+            "count": 1,
+            "smalImg1":
+              "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/i/p/iphone_15_plus_black_pdp_image_position-1__ww-en.jpg",
+            "smalImg2":
+              "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/i/p/iphone_15_plus_black_pdp_image_position-1_alt__ww-en.jpg",
+            "smalImg3":
+              "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/i/p/iphone_15_plus_black_pdp_image_position-2__ww-en.jpg",
+            "smalImg4":
+              "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/i/p/iphone_15_plus_black_pdp_image_position-4__ww-en.jpg",
+            "img": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcT6drAhqCefYIMo5hCdsK9Gh6PC2bd0i_jg63_aetAKYZ6H1bxJMaJyuik53Jv0mkWRwTlcpmXYMx7s0z8TxDnWYVEkTkHnR3lsYcmElkeUE-aTOccGdMYXTu1x&usqp=CAc",
+            "name": "Apple iPhone 15 128GB Чорний",
+            "price": "36999 "
+          },
+        
+        {
+          "id": 13,
+          "count": 1,
+          "smalImg1":
+            "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/w/w/wwen_iphone14pro_q422_gold_pdp-images_position-1a_2.jpg",
+          "smalImg2":
+            "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/w/w/wwen_iphone14pro_q422_gold_pdp-images_position-1b_2.jpg",
+          "smalImg3":
+            "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/i/p/iphone-14-pro-finish-select-202209-6-1inch-gold_av1_geo_us_3_2.jpg",
+          "smalImg4":
+            "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/w/w/wwen_iphone14pro_q422_gold_pdp-images_position-2_2.jpg",
+          "img": "https://i.allo.ua/media/catalog/product/cache/1/small_image/212x184/9df78eab33525d08d6e5fb8d27136e95/w/w/wwen_iphone14pro_q422_gold_pdp-images_position-1a_2.jpg",
+          "name": "Iphone 14 Pro 128Gb Золотий",
+          "price": "89990 "
+        },
+        {
+          "id": 12,
+          "count": 1,
+          "smalImg1":
+            "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/i/p/iphone-13-green-55-1000x1000_result.jpg",
+          "smalImg2":
+            "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/2/5/25-1000x1000-green-1000x1000_result.jpg",
+          "smalImg3":
+            "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/a/p/apple-iphone-13-128gb-green-mnff3-1.1000x_result.jpg",
+          "smalImg4":
+            "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/2/6/26-1000x1000-green-1000x1000_result.jpg",
+          "img": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSpuNb_iBr2QBV_1l__yRj3f2hcYYiROcV68-6v_TR1ochg1avO8nkM0da9tVpffjmjSPITXqp5XzHshoy_rd-oHpNLvhru7FoA3beo86vCIX91L3pDVC4IGKFe&usqp=CAc",
+          "name": "Apple iPhone 13 128GB Зелений",
+          "price": "26 999"
+        }
     ],
-    "mackbook":[{
+    "mackbook":[
+      {
       "id": 71,
       "count": 1,
       "smalImg1":
@@ -56,7 +148,8 @@
       "img": "https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSn2mXjyMcnTF1i91atLGSMoKje8ZkfnxsSzWAq4tKejjcXQXBbhu2z3l8nVQ3b0Xamu4N9McjTFPigN4f6S-nP98eLtbKAPN5lQbG5UQ0IeVxfimFiEURSvR6OZscy&usqp=CAc",
       "name": "Apple MacBook Pro 2022 13 M2 8Gb/256Gb ",
       "price": "49999"
-    },{ "id": 74,
+    },
+    { "id": 74,
     "count": 1,
     "smalImg1":
       "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/m/b/mba15-spacegray-gallery1-202306_result_1.jpg",
@@ -78,7 +171,7 @@
       "price": "49000"
     },
     {
-      "id": 71,
+      "id": 77,
       "count": 1,
       "smalImg1":
         "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/n/d/ndowzveqobfhuh6jrmhlftdmxy1bci98_result_2.jpg" ,    "smalImg2":
@@ -109,7 +202,7 @@
       "smalImg3":"https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/a/p/apple_watch_se_gps_40mm_starlight_aluminum_starlight_sport_band_pdp_image_2023_position-6__en-us_result_1.jpg",
       "img":"https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcSyXWrxn1A5dxSFLUcm27k1HTxlh9diTXGbJIehm_eyo8C3MAtTC-8aW71CSRVCdD5t-WVSNboMGCo_oCOtTvIWgOMLoHVvhHhVjFTYFtPn5K-rP-pdOHbM0pBZ7w&usqp=CAc",      "name":"Apple Watch SE 2  ",
       "price":"29990"},
-      {"id":272,"count":1,
+      {"id":276,"count":1,
       "smalImg1":"https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/s/m/sm-r930_002_front2_gold_result.jpg",
       "smalImg2":"https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/s/m/sm-r930_003_l_perspective_gold_result.jpg",
       "smalImg3":"https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/s/m/sm-r930_004_dynamic_gold_result.jpg",
@@ -253,7 +346,7 @@
         
       },
       {
-        "id": 62,
+        "id": 69,
       "count": 1,
       "smalImg1": "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/m/t/mtjv3_result.jpg",
       "smalImg2": "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/m/t/mtjv3_av2_result.jpg",
@@ -263,5 +356,60 @@
       "name": "Apple AirPods Pro 2nd",
       "price": "11990"
       }
+    ],
+    "popularCard":[
+      {
+        "id": 1,
+        "count": 1,
+        "smalImg1":
+          "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/i/p/iphone_13_q421_midnight_pdp_image_position-1b__ww-ru_1_5.jpg",
+        "smalImg2":
+          "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/i/p/iphone-13-midnight-witb-2021_wid_364_hei_784_fmt_j_5.jpg",
+        "smalImg3":
+          "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/i/p/iphone_13_q421_midnight_pdp_image_position-2__ww-ru_1_5.jpg",
+        "smalImg4":
+          "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/i/p/iphone_13_q421_midnight_pdp_image_position-2__ww-ru_1_5.jpg",
+        "img": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcR3E0ofGEdZLfLKQLiwE_Nx3XDB0ENUrYEkYa_xnPH_s6J3Pe47lsuz8-o-hThG59G-e833XPGjSFJrWYwVKn5ek8J_UehkIqgulV0K0w5tEDhuNxNuJDe3YAo8&usqp=CAc",
+        "name": "Iphone 14 Pro 128Gb Темно-Фіолетовий",
+        "price": "41000"
+      }, {
+        "id": 62,
+      "count": 1,
+      "smalImg1": "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/m/t/mtjv3_result.jpg",
+      "smalImg2": "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/m/t/mtjv3_av2_result.jpg",
+      "smalImg3": "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/m/t/mtjv3_av1_result.jpg",
+      "smalImg4": "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/m/t/mtjv3_av5_result.jpg",
+      "img": "https://encrypted-tbn2.gstatic.com/shopping?q=tbn:ANd9GcSx0_zqvrX6BDnwJJwTyQ22fnrx7HDpiLkiiCGocGdfMv-LD2RQkCK67BjS48dMNTCUhnRmS1JmPXwdouYdTT1op0IlT3dE0hPkjzyeBCP1jTBbHTBealPdB9_nbvJ1l8J4oKoPZt8&usqp=CAc",
+      "name": "Apple AirPods Pro 2nd",
+      "price": "11990"
+      },  {
+        "id": 71,
+        "count": 1,
+        "smalImg1":
+          "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/n/d/ndowzveqobfhuh6jrmhlftdmxy1bci98_result_2.jpg" ,    "smalImg2":
+          "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/4/f/4fy1qpno4nmbh72yqof8uwenydbp8vwr_result_2.jpg",     
+           "smalImg3":
+          "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/w/w/wwru_macbook-air_q121_silver_pdp-image-2_1.jpg",
+        "img": "https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcSgJBbxWd7H2-zREAgC2H6jB_ZWQuVtnOJauMswtxmfZOUbmq3V1wzY_2uNcR-m3wDIsO2sril3H7j2nJPJIr3vYq9AXOSsQUMwILKvIUFCJQHQfhaPfVjJJuQU7h26zA&usqp=CAc",
+        "name": "Ноутбук Apple MacBook Air 13 M2 256GB ",
+        "price": "53000"
+      }, {"id":271,"count":1,
+      "smalImg1":"https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/n/6/n65-sliver_grey-aluminium_alloy_material_.jpg","smalImg2":"https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/h/k/hkcj4gzh6c1.jpg","smalImg3":"https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/n/6/n65-silver_grey-charging_.jpg","img":"https://encrypted-tbn0.gstatic.com/shopping?q=tbn:ANd9GcQjP4ePhiVjBxqBI4PzuZGXOSFkQJrXr9uO7FzR-hvv1cge7XvCe35GFtUr5JYtPkEByG588skpUVn6K3kv4wJvnN0FBd8OKLt85pPXywBRjKlLRKzTMkAcKCWi&usqp=CAc","name":"Apple Watch Series 4 ","price":"9200"}
+      , {
+        "id": 2,
+        "count": 1,
+        "smalImg1":
+          "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/w/w/wwen_iphone14pro_q422_gold_pdp-images_position-1a_2.jpg",
+        "smalImg2":
+          "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/w/w/wwen_iphone14pro_q422_gold_pdp-images_position-1b_2.jpg",
+        "smalImg3":
+          "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/i/p/iphone-14-pro-finish-select-202209-6-1inch-gold_av1_geo_us_3_2.jpg",
+        "smalImg4":
+          "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/w/w/wwen_iphone14pro_q422_gold_pdp-images_position-2_2.jpg",
+        "img": "https://i.allo.ua/media/catalog/product/cache/1/small_image/212x184/9df78eab33525d08d6e5fb8d27136e95/w/w/wwen_iphone14pro_q422_gold_pdp-images_position-1a_2.jpg",
+        "name": "Iphone 14 Pro 128Gb Золотий",
+        "price": "89990 "
+      }
     ]
 }
+

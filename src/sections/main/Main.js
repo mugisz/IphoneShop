@@ -8,130 +8,51 @@ import instW from "../../img/instW.png";
 import whatsappW from "../../img/WhatsappW.png";
 import ProductCard from "../cardSection/ProductCard";
 import ListProduct from "../cardSection/ListProduct";
+import axios from "axios";
 const mainCard = [
   {
     price: "Від 18 990грн",
     name: "Apple Iphone",
     cat: "Смартфони",
-    img: "https://i-point.ru/storage/gallery/big/1166.jpg",
+    img: "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/i/p/iphone_15_plus_black_pdp_image_position-1__ww-en.jpg",
   },
   {
     price: "Від 950 грн",
     name: "Apple AirPods",
     cat: "Безпровідні навушники",
-    img: "https://i-point.ru/storage/gallery/big/62.jpg",
+    img: "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/m/t/mtjv3_result.jpg",
   },
   {
     price: "Від 49999грн",
     name: "Apple Mac",
-    cat: "Комрютери",
-    img: "https://i-point.ru/storage/gallery/big/620.jpg",
+    cat: "Компютери",
+    img: "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/m/b/mba15-spacegray-gallery1-202306_result_1.jpg",
   },
   {
     price: "Від 4999грн",
     name: "Apple Watch",
     cat: "Годиники",
-    img: "https://i-point.ru/storage/gallery/big/450.jpg",
+    img: "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/a/p/apple_watch_ultra_2_cellular_49mm_titanium_beige_orange_trail_loop_pdp_image_position-2__en-us_result.jpg",
   },
   {
     price: "Від 6799 грн",
     name: "Apple Ipad",
     cat: "Планшети",
-    img: "https://i-point.ru/storage/gallery/big/2597.jpg",
-  },
-];
-const popularCard = [
-  {
-    id: 1,
-    count: 1,
-    smalImg1: "https://i-point.ru/storage/gallery/big/2707.jpg",
-    smalImg2: "https://i-point.ru/storage/gallery/big/2709.jpg",
-    smalImg3: "https://i-point.ru/storage/gallery/big/2708.jpg",
-    smalImg4: "https://i-point.ru/storage/gallery/big/2700.jpg",
-    img: "https://i-point.ru/storage/item/main/1200.jpg",
-    name: "Iphone 14 Pro 128Gb ",
-    price: "45990",
-  },
-  {
-    id: 71,
-    count: 1,
-    smalImg1: "https://i-point.ru/storage/gallery/big/2062.jpg",
-    smalImg2: "https://i-point.ru/storage/gallery/big/2063.jpg",
-    smalImg3: "https://i-point.ru/storage/gallery/big/2064.jpg",
-    img: "https://i-point.ru/storage/item/main/1114.jpg",
-    name: "Apple MacBook Pro 2022 13 M2 8Gb/256Gb ",
-    price: "50000",
-  },
-  {
-    id: 64,
-    count: 1,
-    smalImg1: "https://i-point.ru/storage/gallery/big/1009.jpg",
-    smalImg2: "https://i-point.ru/storage/gallery/big/1010.jpg",
-    smalImg3: "https://i-point.ru/storage/gallery/big/1011.jpg",
-    smalImg4: "https://i-point.ru/storage/gallery/big/1012.jpg",
-    img: "https://i-point.ru/storage/item/main/1180.jpg",
-    name: "Наушники Apple AirPods Pro(2022)",
-    price: "18590",
-  },
-  {
-    id: 65,
-    count: 1,
-    smalImg1: "https://i-point.ru/storage/gallery/big/627.jpg",
-    smalImg2: "https://i-point.ru/storage/gallery/big/628.jpg",
-    smalImg3: "https://i-point.ru/storage/gallery/big/629.jpg",
-    smalImg4: "https://i-point.ru/storage/gallery/big/626.jpg",
-    img: "https://i-point.ru/storage/item/main/583.jpg",
-    name: "Навушники Apple AirPods Max ",
-    price: "12980",
-  },
-  {
-    id: 4,
-    count: 1,
-    smalImg1: "https://i-point.ru/storage/gallery/big/2668.jpg",
-    smalImg2: "https://i-point.ru/storage/gallery/big/2670.jpg",
-    smalImg3: "https://i-point.ru/storage/gallery/big/2669.jpg",
-    smalImg4: "https://i-point.ru/storage/gallery/big/2671.jpg",
-    img: "https://i-point.ru/storage/item/main/1212.jpg",
-    name: "Iphone 14 Pro 128Gb  ",
-    price: "42000 ",
-  },
-
-  {
-    id: 82,
-    count: 1,
-    smalImg1: "https://i-point.ru/storage/gallery/big/885.jpg",
-    smalImg2: "https://i-point.ru/storage/gallery/big/886.jpg",
-    smalImg3: "https://i-point.ru/storage/gallery/big/888.jpg",
-    img: "https://i-point.ru/storage/item/main/710.jpg",
-    name: "Apple iMac 24 Retina 4,5K M1 3.06 ГГц 8Gb/512Gb ",
-    price: "67999",
-  },
-  {
-    id: 52,
-    count: 1,
-    smalImg1: "https://i-point.ru/storage/gallery/big/835.jpg",
-    smalImg2: "https://i-point.ru/storage/gallery/big/836.jpg",
-    smalImg3: "https://i-point.ru/storage/gallery/big/837.jpg",
-    smalImg4: "https://i-point.ru/storage/gallery/big/2713.jpg",
-    img: "https://i-point.ru/storage/item/main/652.jpg",
-    name: "Iphone 12 128Gb ",
-    price: "29000 ",
-  },
-
-  {
-    id: 53,
-    count: 1,
-    smalImg1: "https://i-point.ru/storage/gallery/big/1132.jpg",
-    smalImg2: "https://i-point.ru/storage/gallery/big/1133.jpg",
-    smalImg3: "https://i-point.ru/storage/gallery/big/1130.jpg",
-    smalImg4: "https://i-point.ru/storage/gallery/big/1131.jpg",
-    img: "https://i-point.ru/storage/item/main/762.jpg",
-    name: "Iphone 13 128Gb ",
-    price: "56990 ",
+    img: "https://i.allo.ua/media/catalog/product/cache/1/image/524x494/602f0fa2c1f0d1ba5e241f914e856ff9/i/p/ipad-pro-11-select-cell-silver-202210_result_1_1_1_1_1_1_1_1.jpg",
   },
 ];
 
 const Main = ({ setBuy, SetBusket }) => {
+  const [popularCard, Setcard] = React.useState([]);
+  React.useEffect(() => {
+    const getIpad = async () => {
+      const { data } = await axios.get("http://localhost:3001/popularCard");
+      Setcard(data);
+      return data;
+    };
+
+    getIpad();
+  });
   return (
     <main>
       <div className="mainBG"></div>

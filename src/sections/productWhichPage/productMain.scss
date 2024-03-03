@@ -1,111 +1,140 @@
-.default_for_buy{
-    color:black;
-   
-    
-    width:100%;
-   
-    margin: 0 auto;
-    background-color: rgb(244, 244, 244);
-    a{text-decoration: none;color:black;}
-    .description_top_block{
-        display: flex;
-        flex-direction: column;
-        align-items: flex-start;
-        //border:1px solid red;
+.default_for_buy {
+  color: black;
 
-        .red{color:red;}
-        .trans{color:rgb(85, 85, 85);}
-        .buyDesc{
-            font-weight: 700;
-            font-size: 30px;
-           // border:1px solid red;A
-            position: relative;
-            &::after{
-                content:"";
-                width: 60%;
-                height: 3px;
-                background: red;
-                position: absolute;
-                bottom:-10px;
-                left:0;
-            }
-        }
+  width: 100%;
+
+  margin: 0 auto;
+  background-color: rgb(244, 244, 244);
+
+  a {
+    text-decoration: none;
+    color: black;
+  }
+  .description_top_block {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    //border:1px solid red;
+
+    .red {
+      color: red;
     }
-    .which_iphone_main{
-        //border:1px solid red;
-        display: flex;
-        flex-wrap: wrap;
-        gap:1rem;
-        .which_block{
-            display: flex;
-            align-items:center;
-            background: rgb(255, 255, 255);
-            padding: 10px 20px;
-            border-radius: 20px;
-            gap:1rem;
-            a{text-decoration: none; color:black;transition:.2s;&:hover{color:red;}}
-        }
-        img{width: 20.8px;height: 26px;}
+    .trans {
+      color: rgb(85, 85, 85);
     }
-    .iphone_flexCard{
-      // border:1px solid red;
+    .buyDesc {
+      font-weight: 700;
+      font-size: 30px;
+      // border:1px solid red;A
+      position: relative;
+      &::after {
+        content: "";
+        width: 60%;
+        height: 3px;
+        background: red;
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+      }
+    }
+  }
+  .which_iphone_main {
+    //border:1px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    .which_block {
+      display: flex;
+      align-items: center;
+      background: rgb(255, 255, 255);
+      padding: 10px 20px;
+      border-radius: 20px;
+      gap: 1rem;
+      a {
+        text-decoration: none;
+        color: black;
+        transition: 0.2s;
+        &:hover {
+          color: red;
+        }
+      }
+    }
+    img {
+      width: 20.8px;
+      height: 26px;
+    }
+  }
+  .iphone_flexCard {
+    // border:1px solid red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    margin: 3rem 0;
+
+    .iphone_Card {
+      a {
+        color: black;
+      }
+      cursor: pointer;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: space-between;
+      text-align: center;
+      width: 320px;
+      height: 380px;
+      box-shadow: 0 0 20px rgb(0 0 0 / 7%);
+      border-radius: 20px;
+      padding: 15px 0 0 0;
+      background: white;
+      position: relative;
+      transition: all 0.3s ease;
+
+      &:hover {
+        box-shadow: 0 0 2px rgb(0 0 0 / 7%);
+      }
+      h2 {
+        font-weight: 300;
+        color: rgb(85, 85, 85);
+      }
+      .price {
+        font-size: 18px;
+        font-weight: 700;
+      }
+      .blue_cardBlock {
+        background: rgb(42, 127, 255);
+        width: 100%;
         display: flex;
         flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: center;
-        gap:2rem;
-        margin: 1rem 0;
-       
-        .iphone_Card{
-            a{color:black}
-            cursor: pointer;
-            display: flex;
-            flex-direction: column;
-            align-items:center;
-            justify-content: space-between;
-            text-align: center;
-            width: 320px;
-            height: 380px;
-            box-shadow: 0 0 20px rgb(0 0 0 / 7%);
-            border-radius: 20px;
-            padding: 15px 0 0 0;
-           background: white;
-           position: relative;
-           transition: all .3s ease;
-        
-           &:hover{ box-shadow: 0 0 2px rgb(0 0 0 / 7%);}
-           h2{font-weight: 300;color:rgb(85, 85, 85);}
-           .price{ font-size: 18px;font-weight: 700;}
-           .blue_cardBlock{
-            background: rgb(42, 127, 255);
-            width: 100%;
-            display: flex;
-            flex-direction: row;
-            align-items:center;
-            justify-content: space-between;
-            padding-top: 10px;
-            color:white;
-            border-bottom-left-radius: 20px;
-            bottom:0;
-          
-            height: 50px;
-            border-bottom-right-radius: 20px;
-            p{padding-left: 10px;font-weight: 300;font-size: 18px;}
-            .cart{
-                margin: 0 10px 10px 0;
-                background: rgb(4, 97, 236);
-                padding: 10px;
-                border-radius:10px;
-            }
-           }
-            .cart{
-                width: 24px;
-                height: 24px;
-            }
-            
+        align-items: center;
+        justify-content: space-between;
+        padding-top: 10px;
+        color: white;
+        border-bottom-left-radius: 20px;
+        bottom: 0;
+
+        height: 50px;
+        border-bottom-right-radius: 20px;
+        p {
+          padding-left: 10px;
+          font-weight: 300;
+          font-size: 18px;
         }
-        
+        .cart {
+          margin: 0 10px 10px 0;
+          background: rgb(4, 97, 236);
+          padding: 10px;
+          border-radius: 10px;
+        }
+      }
+      .cart {
+        width: 24px;
+        height: 24px;
+      }
     }
+  }
 }
 /*
  s
